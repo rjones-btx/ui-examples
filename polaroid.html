@@ -1,0 +1,49 @@
+<!doctype HTML>
+<html>
+    <body>
+        <div></div>
+        <div></div>
+        <div></div>
+    </body>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            background: #cfcfff;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div {
+            position: absolute;
+            border: 1rem solid #efefef;
+            border-bottom: 5rem solid #efefef;
+            background: #dfdfdf;
+            width: 400px;
+            height: 400px;
+            transform: rotate(-7deg);
+            box-shadow: 0.1rem 0 0.2rem #888;
+            /* image source: https://thumbs.dreamstime.com/z/group-friends-having-fun-beach-concept-summertime-happy-group-friends-having-fun-beach-concept-148037699.jpg */
+            background-image: url(./friends.jpeg);
+            background-position: -150px -50px;
+            background-size: 175%;
+        }
+
+        div:nth-of-type(1) {
+            transform: rotate(-22deg);
+            box-shadow: 0.1rem 0 0.4rem #888;
+        }
+
+
+        div:nth-of-type(2) {
+            transform: rotate(-15deg);
+        }
+
+    </style>
+</html>
